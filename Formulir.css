@@ -55,7 +55,7 @@ img {
 }
 
 .body {
-    background-image: url(gambar.jpg);
+    background-image: url('gambar.jpg');
     background-repeat: repeat-y;
     width: 1055px;
 }
