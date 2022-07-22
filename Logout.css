@@ -1,0 +1,91 @@
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.contain {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: black;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+}
+
+.header{
+    margin-top: 10px;
+    border-block-width: 100%;
+    border-bottom: 3px solid aliceblue;
+}
+
+.isi {
+    width: max-content;
+    position: absolute;
+}
+
+.deskripsi-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.deskripsi {
+    background-color: #2e75f1;
+    width: 205px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+.body {
+    background-image: url('../contoh gambar/gambar.jpg');
+    width: 1100px;
+    background-repeat: repeat-y;
+}
+
+.keluar {
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    padding: 20px 20px;
+    width: fit-content;
+    background-color: rgba(68, 77, 90, 0.685);
+}
+
+h1 { 
+    text-align: left;
+    color: aliceblue;
+    border-bottom: 5px solid;
+    margin-bottom: 15px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.keluar button {
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    font-size: large;
+    background-color: #2e75f1;
+}

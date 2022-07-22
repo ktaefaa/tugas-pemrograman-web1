@@ -1,0 +1,89 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.contain {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: black;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+}
+
+.header{
+    margin-top: 10px;
+    border-block-width: 100%;
+    border-bottom: 3px solid aliceblue;
+}
+
+.isi {
+    width: max-content;
+    position: absolute;
+}
+
+.deskripsi-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 10px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.deskripsi {
+    background-color: #2e75f1;
+    width: 205px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+.body {
+    background-image: url('../contoh gambar/gambar.jpg');
+    background-repeat: no-repeat;
+    width: 1075px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+}
+
+.judul {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tabel {
+    background-color: rgb(165, 144, 185);
+    border-color: aliceblue;
+    margin: 25px;
+}

@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title> Formulir </title>
+        <link href="Kode CSS/Formulir.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="contain">
+            <div class="sidebar">
+                <div class="header">
+                    <div class="list">
+                        <a href="menu.html">
+                            <img src="contoh gambar/icon.png" alt="">
+                            <span class="deskripsi-header"> Afifa Wulandari <br> F55121057 </span>
+                        </a>
+                   </div>
+                </div><br><br>
+
+                <div class="isi">
+                    <div class="list">
+                        <p class="deskripsi">
+                            <a href="menu.html"> Home </a>
+                        </p><br>
+                        <p class="deskripsi">
+                            <a href="data tabel.html" rel="stylesheet"> Data Diri Mahasiswa </a>
+                        </p><br>
+                        <p class="deskripsi">
+                            <a href="Formulir.html" rel="stylesheet"> Form Mahasiswa </a>
+                        </p><br>
+                        <p class="deskripsi">
+                            <a href="Logout.html" rel="stylesheet"> Log Out </a>
+                        </p>
+                   </div>
+                </div>
+            </div>
+        <form name="input" action="proses.php" method="get">
+            <div class="body">
+                <div class="data-header">
+                    <h1> Formulir Data Diri </h1>
+                    <p> Isi data diri dibawah ini dengan benar! </p>
+                </div><br>
+    
+                <div class="data data-text">
+                    <label> Nama Depan </label>
+                    <input type="text">
+                </div><br>
+    
+                <div class="data-text data">
+                    <label> Nama Belakang </label>
+                    <input type="text"> 
+                </div><br>
+    
+                <div class="data-text data">
+                    <label> NIM </label>
+                    <input type="text"> 
+                </div><br>
+    
+                <div class="data-text data">
+                    <label> Alamat </label>
+                    <input type="text">
+                </div><br>
+    
+                <div class="data-date data">
+                    <label> Tanggal Lahir </label><br>
+                    <input type="date">
+                </div><br>
+    
+                <div class=" data">
+                    <label> Jenis Kelamin </label><br>
+                    <input type="radio" name="JenisKel" value="Pria" /> Pria
+                    <input type="radio" name="JenisKel" value="Wanita" /> Wanita
+                </div><br>
+    
+                <div class="data-selected data">
+                    <label> Fakultas </label><br>
+                    <select name="Fakultas">
+                        <option value="" selected="selected">---Pilih Fakultas---</option>
+                       <option value="Teknik">Teknik</option>
+                        <option value="MIPA">MIPA</option>
+                        <option value="ek">Ekonomi</option>
+                       <option value="hk">Hukum</option>
+                    </select>
+                </div><br>
+    
+                <div class="data-selected data">
+                    <label> Jurusan </label><br>
+                    <select name="Jurusan">
+                        <option value="" selected="selected">---Pilih Jurusan---</option>
+                        <option value="ti">Teknik Informasi</option>
+                        <option value="si">Teknik Mesin</option>
+                        <option value="si">Teknik Sipil</option>
+                        <option value="si">Teknik Geologi</option>
+                    </select>
+                </div><br>
+    
+                <div class="data-selected data">
+                    <label> Prodi </label><br>
+                    <select name="Prodi">
+                        <option value="" selected="selected">---Pilih Prodi---</option>
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                    </select>
+                </div><br>
+    
+                <div class="data-checkbox data">
+                    <label> Kelas : </label><br>
+                    <input type="checkbox" name="class" value="A" /> A <br>
+                    <input type="checkbox" name="class" value="B" /> B <br>
+                    <input type="checkbox" name="class" value="C" /> C
+                </div><br>
+                
+                <div class="data data-submit"> 
+                    <input type="submit" name="Kirim"/>
+                    <input type="reset" name="Reset" />
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
